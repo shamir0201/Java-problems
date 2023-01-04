@@ -1,0 +1,15 @@
+import java.util.*;
+public static void main(String[] args)
+    {
+        int Marks[][]=new int[4][5];
+        Marks[1][1]=4;
+        for(int i=0;i<Marks.length;i++)
+        {
+            for (int j=0;j<Marks.length;j++) {
+
+
+                System.out.print(Marks[i][j]);
+            }
+            System.out.println(" ");
+        }
+    }
