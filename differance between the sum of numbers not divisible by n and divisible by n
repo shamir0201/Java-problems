@@ -1,0 +1,19 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int m=sc.nextInt();
+        int four=0;
+        int not_four=0;
+        for(int i=1;i<=m;i++){
+            if(i%4==0){
+                four=four+i;
+            }
+            else{
+                not_four=not_four+i;
+            }
+        }
+        System.out.println(not_four-four);
+    }
+}
